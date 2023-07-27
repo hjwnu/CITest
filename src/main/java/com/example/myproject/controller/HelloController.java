@@ -15,5 +15,6 @@ public class HelloController {
     @GetMapping("/ad/1")
     public String ad() {
         return "ad";
+
     }
 }
